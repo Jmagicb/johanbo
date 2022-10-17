@@ -4,7 +4,7 @@ network:
  renderer: networkd
  ethernets:
    enp0s3:
-      addresses: [192.168.1.10/24]
+      addresses: [192.168.1.15/24]
 #      gateway4: 192.168.1.150
       routes:
        - to: 192.168.1.0/24
@@ -13,3 +13,4 @@ network:
       dhcp4: no
       nameservers:
         addresses: [192.168.1.200]
+      optional= true
