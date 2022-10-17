@@ -7,7 +7,7 @@ interface-name=enp0s3
 wake-on-lan=0
 
 [ipv4]
-methor=auto
+method=auto
 address1=192.168.1.10/24
 dns=192.168.1.200;
 
