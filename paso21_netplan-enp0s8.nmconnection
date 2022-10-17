@@ -7,7 +7,10 @@ interface-name=enp0s3
 wake-on-lan=0
 
 [ipv4]
-method
+method=manual
+address1=192.168.1.10/24
+dns=192.168.1.200;
+route1=192.168.1.0/24,192.168.1.1,100
 
 
 [ipv6]
