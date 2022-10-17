@@ -1,0 +1,20 @@
+id=Wired connection 1
+uuid=63b3877-3ef7-31b1-83cf-8c6e3223d72f
+type=esthernet
+autoconnect-priority=-999
+interface-name=enp0s8
+timestamp=1665993222
+
+[ethernet]
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+method=auto
+
+[proxy]
+
+[.nmeta]
+nm-generated=true
