@@ -1,0 +1,15 @@
+[Match]
+Name=enp0s3
+
+[Link]
+RequiredForOnline=no
+
+[Network]
+LinkLocalAddressing=ipv6
+Address=192.168.1.15/24
+DNS=192.168.1.250
+
+[Route]
+Destination=0.0.0.0/0
+Gateway=192.168.1.150
+Metric=100
