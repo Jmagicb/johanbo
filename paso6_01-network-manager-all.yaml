@@ -5,7 +5,11 @@ network:
  ethernets:
    enp0s3:
       addresses: [192.168.1.10/24]
-      gateway4: 192.168.1.100
+      gateway4: 192.168.1.10
+#      routes:
+#       - to: 192.168.1.0/24
+#         via: 192.168.1.100
+#         metric: 100
       nameservers:
         addresses: [192.168.1.200]
-      dhcp4: true
+      dhcp4: no
