@@ -12,5 +12,5 @@ network:
          metric: 100
       dhcp4: no
       nameservers:
-        addresses: [192.168.1.200]
+        addresses: [192.168.1.250]
       optional= true
